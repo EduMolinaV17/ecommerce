@@ -133,7 +133,7 @@ footer h3 {
     "a a"
     "b c"
     "d d";
-  grid-template-rows: 0.1fr 1fr 0.01fr;
+  grid-template-rows: 0.01fr 1fr 0.01fr;
   grid-template-columns: 0.2fr 1fr;
   gap: 1px;
   height: 100vh;
