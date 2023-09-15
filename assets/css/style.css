@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: rgb(225, 217, 217);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 nav {
   grid-area: a;
@@ -25,36 +25,36 @@ aside {
   justify-content: flex-start;
   align-items: center;
 }
-aside h3{
-    margin: 0;
-    padding-top: 10px;
+aside h3 {
+  margin: 0;
+  padding-top: 10px;
 }
-aside p{
-    margin: 0;
-    padding-top: 10px;
-    color: black;
+aside p {
+  margin: 0;
+  padding-top: 10px;
+  color: black;
 }
-article{
-    display: flex;
+article {
+  display: flex;
 }
-article a{
-    text-decoration: none;
+article a {
+  text-decoration: none;
 }
-.cantidad{
-    padding-left: 5px;
-    color: rgb(147, 145, 145);
+.cantidad {
+  padding-left: 5px;
+  color: rgb(147, 145, 145);
 }
-.comic{
-    padding-left: 1px;
+.comic {
+  padding-left: 1px;
 }
-.manga{
-    padding-left: 4px;
+.manga {
+  padding-left: 4px;
 }
-.album{
-    padding-right: 14px;
+.album {
+  padding-right: 14px;
 }
-.cartas{
-    padding-right: 15px;
+.cartas {
+  padding-right: 15px;
 }
 main {
   grid-area: c;
@@ -64,18 +64,22 @@ main {
   gap: 10px;
   justify-items: center;
   align-items: center;
-  padding-left: 50px;
 }
-main a{
-    text-decoration: none;
+main a {
+  text-decoration: none;
 }
 .card {
   display: flex;
   flex-direction: column;
-  width: 15em;
+  width: 390px;
   height: 18em;
   border: solid 1px;
   background-color: white;
+  justify-items: center;
+}
+.card-img-top {
+  display: flex;
+  justify-content: center;
 }
 .card-img-top img {
   width: 240px;
@@ -87,7 +91,7 @@ main a{
   flex-grow: 1;
   justify-content: center;
   align-items: center;
-  width: 240px;
+  width: 389px;
   height: 50px;
   background-color: white;
 }
@@ -95,7 +99,7 @@ main a{
   margin: 0;
   width: 240px;
   text-align: center;
-  color: rgb(32, 32, 155);;
+  color: rgb(32, 32, 155);
 }
 .card-body p {
   margin: 0;
@@ -120,8 +124,8 @@ footer {
   align-items: flex-end;
   height: 30px;
 }
-footer a{
-    text-decoration: none;
+footer a {
+  text-decoration: none;
 }
 footer h3 {
   margin: 0;
@@ -134,7 +138,7 @@ footer h3 {
     "b c"
     "d d";
   grid-template-rows: 0.01fr 1fr 0.01fr;
-  grid-template-columns: 0.2fr 1fr;
+  grid-template-columns: 0.2fr 0.8fr;
   gap: 1px;
   height: 100vh;
 }
